@@ -133,6 +133,7 @@ nav{
     flex: 1;
     display: flex;
     align-items: center;
+    margin-top: 16px;
 }
 .about-me_img{
     width: 100%;
