@@ -37,7 +37,7 @@ li{
     max-width: 800px;
     margin: 0 auto;
 }
-.text-purple{
+.text--purple{
     color:  rgb(98, 7, 121);;
 }
 
@@ -96,6 +96,7 @@ nav{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     max-width: 600px;
     margin-bottom: 0 auto;
     text-align: center;
