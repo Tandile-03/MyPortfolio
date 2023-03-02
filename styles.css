@@ -97,7 +97,7 @@ nav{
     flex-direction: column;
     align-items: center;
     max-width: 600px;
-    margin-bottom: 0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 .about-me_picture--mask{
@@ -120,6 +120,7 @@ nav{
 .about-me_info--paragraph{
     font-size: 20px;
     margin-bottom: 28px;
+
 }
 .about-me_link{
     font-size: 20px;
