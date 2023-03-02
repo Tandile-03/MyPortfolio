@@ -73,6 +73,7 @@ nav{
 }
 .nav_link-anchor-primary:hover{
     background-color: rgb(57, 57, 240);
+    color: white;
 }
 
 .personal_logo{
