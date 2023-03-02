@@ -99,6 +99,7 @@ nav{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 35px;
 }
 .about-me_picture--mask{
     width: 100px;
@@ -133,7 +134,7 @@ nav{
     flex: 1;
     display: flex;
     align-items: center;
-    margin-top: auto;
+    margin-top: 30px;
 }
 .about-me_img{
     width: 100%;
