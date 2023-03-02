@@ -43,6 +43,9 @@ nav{
     text-decoration: none;
     font-weight: 700;
 }
+.nav_link-anchor:hover{
+    color: rgb(57, 57, 240);
+}
 .nav_link-anchor-primary{
     background-color: rgb(98, 7, 121);
     padding: 8px 20px;
@@ -55,7 +58,7 @@ nav{
 }
 
 .personal_logo{
-    font-size: 2px;
+    font-size: 24px;
     color:rgb(98, 7, 121) ;
     margin: 0 12px;
     font: bold;
