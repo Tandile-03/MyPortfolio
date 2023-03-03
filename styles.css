@@ -64,6 +64,7 @@ li{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px ;
 }
 .container{
     padding: 50px 0;
@@ -86,6 +87,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
 }
 .nav_link-list{
     display: flex;
@@ -203,6 +205,7 @@ nav{
 
 .language_list{
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -341,4 +344,54 @@ footer{
 .footer_anchor:hover .footer_logo--popper{
     transform: translateX(60px);
     opacity: 1;
+ } 
+/* Can be Accessed using small phones, tables and more */
+@media(max-width:760px){
+    nav{
+        height: 68px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .about-me_info--paragraph{
+        font-size: 18px;
+    }
+    .language{
+        width: calc(100%/3)
+    }
+    .project_description--para{
+        font-size: 14px;
+    }
+    .project_description{
+        left:30px;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width:480px){
+    .nav_link:not(:last-child){
+        display: none;
+    }
+    .project_description{
+        padding: 0;
+        left: 0;
+        width: 100%;
+    }
+    .project_description--para{
+        display: none;
+    }
+    .project_description--links{
+        display:flex;
+        justify-content: center;
+    }
+    .project_description--title{
+        font-size: 32px;
+        line-height: 1;
+    }
+    .project_description--sub-title{
+        text-align: center;
+        margin: 12px 0;
+    }
+
+
 }
